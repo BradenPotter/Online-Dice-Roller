@@ -1,0 +1,49 @@
+html {
+    background-color: var(--backgroundcolor);
+    scroll-behavior: smooth;
+    -webkit-transition: background-color 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+    -o-transition: background-color 0.2s ease-out;
+    transition: background-color 0.2s ease-out;
+}
+h1, div, p {
+    color: var(--text)
+}
+
+:root {
+    --backgroundcolor: #263740;
+    --text: black;
+}
+
+.main-container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 15px;
+    gap: 1vh;
+}
+
+.dice {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#diceContainer {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 80%;
+}
+
+#add {
+    margin-top: 5vh;
+}
+
+#total {
+    margin-bottom: 5vh;
+}
