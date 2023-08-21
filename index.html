@@ -7,15 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>WIP</h1>
 <div class="main-container">
-    <button id="add" onclick="addDice()">Add Dice</button>
-    <button id="subtract" onclick="removeDice()">Remove Dice</button>
-
+    <div id="addsubtract">
+    <button class="button" id="add" onclick="addDice()">Add</button>
+    <button class="button" id="subtract" onclick="removeDice()">Remove</button>
+    </div>
     <div id="diceContainer"></div>
-    <button onclick="rollDice()">Roll</button><br>
-    <span>Total:</span>
-    <span id="total"></span>
+    <button id="submit" onclick="rollDice()">Roll</button><br>
+    <span id="total">Total:</span>
 </div>
 <script src="script.js"></script>
 </body>

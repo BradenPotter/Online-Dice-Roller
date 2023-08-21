@@ -19,6 +19,7 @@ h1, div, p {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5vh;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -29,15 +30,41 @@ h1, div, p {
     gap: 1vh;
 }
 
+#submit {
+    width: 10vw;
+    height: 5vh;
+}
+
 .dice {
     display: flex;
-    justify-content: space-evenly;
+    gap: 1vh;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1vh;
+    align-items: center;
+}
+
+input {
+    width: 40px;
+}
+
+.button {
+    height: 10vw;
+    max-height: 10vh;
+    width: 10vw;
+    max-width: 10vh;
 }
 
 #diceContainer {
     margin-top: 2vh;
     margin-bottom: 2vh;
-    width: 80%;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
 }
 
 #add {
